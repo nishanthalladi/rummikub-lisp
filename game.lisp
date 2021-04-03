@@ -48,4 +48,3 @@
         if (= (nth i seq) -1) do 
             (setf (nth i seq) (+ 1 (nth (- i 1) seq))))
     seq)
-    
